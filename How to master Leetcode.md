@@ -5,6 +5,8 @@ Arrays (int[] nums)
 - nums.length
 - cannot use contains
 - Sort: Arrays.sort(nums)
+- Collections.sort()
+- Collections.reverse()
 
 List
 
