@@ -31,11 +31,21 @@
 
 #### gRPC
 
+- open source remote procedure call system
+  -  defining a service, specifying the methods that can be called remotely with their parameters and return types
+- uses protocal buffer as the interface description language
+- features like authentication, bidirectional streaming and flow control, blocking or nonblocking bindings, and cancellation and timeouts 
+- Connect services
 - blockingstub
 - invokeWithRetry()
 
 #### KAFKA
 
+- A streaming platform has 3 key caps:
+  - publish and subscribe to streams of records, similar to a message queue or enterprise messaging system
+  - store streams of records in a fault-tolerant durable way
+  - process streams of records as they occur
+  - 
 - kstream vs ktable vs globalktable
   -  ktable is partitioned over all kafkastream instance
   - globalktable is fully replicated per kafkastream instance

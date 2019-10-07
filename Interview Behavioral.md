@@ -18,7 +18,7 @@
 **One line summary**: Used java to support internal regulatory reporting system
 
 - automate the process of daily fetching reports using Java
-- In this position, most of the time I was doing a project management job for example, i keep track of every morning meeting and based on that, I created / updated tickets using JIRA and LeanKit. 
+- In this position, most of the time I was doing a project management job for example, i keep track of every morning meeting and based on that, I created / updated tickets using kanban board JIRA and LeanKit. 
 
 
 
@@ -47,3 +47,7 @@
 
 ## Common questions
 
+1. list 3 adj that your collegues may use to describe you
+2. Why this company?
+3. why would i hire you
+4. 
