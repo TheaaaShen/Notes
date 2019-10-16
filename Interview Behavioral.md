@@ -5,8 +5,9 @@
 **One line summary**: Used Java to deploy Spring microservices to Kubernetes on AWS
 
 - built several REST APIs for the ride-hailing application including getHistory, update waypoints ... with CQRS architecture
--  receive live vehicle data via Kafka streams
-- some minor tasks like: Convert json to protobuf and sent to kafka topic (server)
+- grpc for proto
+- receive live vehicle data via Kafka streams
+- some minor tasks like: Conve rt json to protobuf and sent to kafka topic (server)
 - Most difficult: getHistory
   - in different state, the data is stored in different stuctures, hard to get all the changes 
   - It goes to almost every part of the system, hard to sync
@@ -30,7 +31,7 @@
 
 - What it is: 
 
-  - The software manipulates a physical glycan identification experiences which is for a sample glycan structure, we cut randomly 1-3 edges each round and check for similarity with all known structures in the database, if there is no one with the possibility that we require (99%), we cut the fragments for another round. The experiments usually go at most 3 rounds.
+  - The software simulates a physical glycan identification experiementsΩ which is for a sample glycan structure, we cut randomly 1-3 edges each round and check for similarity with all known structures in the database, if there is no one with the possibility that we require (99%), we cut the fragments for another round. The experiments usually go at most 3 rounds.
 
 - What it used to be: 
 
@@ -50,4 +51,16 @@
 1. list 3 adj that your collegues may use to describe you
 2. Why this company?
 3. why would i hire you
-4. 
+4. STAR : 
+
+
+
+
+
+can you tell me about the team ill be working with
+
+typical day
+
+pay
+
+project of past intern finished
