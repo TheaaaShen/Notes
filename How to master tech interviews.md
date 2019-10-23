@@ -94,22 +94,32 @@ map
 
 - map.putIfAbsent(key, new Arraylist<>())
 - map.get(key).add(newValue)
+- map.keySet()
 
 others:
 
 - Integer.toString(int)
 - StringBuilder sb
   - sb.toString()
--  List<String> result = new ArrayList();
+- List<String> result = new ArrayList();
 - Result.add(element)
 - hashMap.getOrDefault(key, 0)+1;
 - int[] count = new int[26];
+- 
+
+Matrix 
+
+- int\[\][] width = int\[0\].length depth = matrix.length
+- if (matrix == null || matrix.length == 0 || matrix[0].length == 0) 
 
 priorityQueue
 
 - queue that can be put using custom comparator when initializing
 - Queue<Integer> queue = new PriorityQueue<>((a,b) -> map.get(b) - map.get(a))
 - a pq that based on the values in a map in decesding order
+- Queue<String> queue = new PriorityQueue<>(
+  ​            (a,b) ->map.get(a).equals(map.get(b))?
+  ​        a.compareTo(b) : map.get(b) - map.get(a)); //if not condition for pq
 
 
 
